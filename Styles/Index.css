@@ -29,7 +29,7 @@ header{
     text-align: center;
     width: 100vw;
     min-width: 320px;
-    height: 300px;
+    height: 30.0rem;
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 }
 header img{
@@ -42,7 +42,7 @@ header img{
     width: 90vw;
     min-width: 288px;
     max-width: 900px;
-    height: 218px;
+    height: 21.8rem;
 }
 .header__title-container h1{
     font-size: 2.4rem;
@@ -61,7 +61,7 @@ header img{
 .header__title-container .header__button{
     position: absolute;
     width: 230px;
-    height: 48px;
+    height: 4.8rem;
     bottom: -24px; /* mitad del height */
     left: calc(50% - 115px) ; /* mitad del width(115px) y 50% para centrar */
     display: block;
@@ -78,7 +78,7 @@ header img{
 .header__button span{
     display: inline-block;
     width: 12px;
-    height: 8px;
+    height: 0.8rem;
     margin-left: 10px;
     background-image: url('../Assets/icons/down-arrow.svg');
     background-repeat: no-repeat;
