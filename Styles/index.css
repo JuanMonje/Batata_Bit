@@ -169,7 +169,6 @@ main{
 .currency-table__container td{
     width: 50%;
     background-color: var(--just-white);
-<<<<<<< HEAD:Styles/Index.css
     text-align: left;
     padding: 0 10px;
 }
