@@ -336,7 +336,7 @@ main{
 }
 
 
-/* *TERCERA SECCIÓN IMAGEN BITCOIN */
+/* *TERCERA SECCIÓN - IMAGEN BITCOIN */
 .bitcoin-img__container{
     width: 100%;
     min-width: 320px;
@@ -353,4 +353,176 @@ main{
     font-weight: 700;
     text-align: center;
     padding-top: 64px;
+}
+
+
+/* ?CUARTA SECCION - COSTOS */
+.main-plans__container{
+    width: 100%;
+    min-width: 320px;
+    text-align: center;
+    padding: 64px 0px 57px;
+    background-color: #faf8f7;
+}
+.plans__title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto 50px;
+}
+.plans__title h2{
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    color: var(--warm-black);
+    margin-bottom: 24px;
+}
+.plans__title p{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: var(--grey);
+}
+/* .CONSTRUCCIÓN DEL SLIDER HORIZONTAL */
+.plans-container__slider{
+    display: flex;
+    gap: 30px;
+    height: auto;
+    align-self: center;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+/* .TARJETAS DE PRECIOS */
+.plans-container__card{
+    position: relative;
+    scroll-snap-align: center; /* !slider */
+    width: 70%;
+    /* min- */width: 190px;
+    /* max-width: 272px; */
+    height: 24.7rem;
+    margin: 15px 0 7px;
+    padding: 31px 16px 24px;
+    background-color: var(--just-white);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 8px;
+}
+.recommended{
+    position: absolute;
+    width: 100px;
+    height: 3rem;
+    color: var(--just-white);
+    font-size: 1.2rem;
+    line-height: 1.45rem;
+    font-weight: 700;
+    font-family: "Inter",sans-serif;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    padding: 8px;
+    justify-content: center;
+    top: -15px;
+    left: calc(50% - 50px);
+}
+.plan-card__title{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: black;
+    margin: 0 auto;
+}
+.plan-card__price{
+    position: relative;
+    display: inline-block;
+    font-size: 5.2rem;
+    font-weight: 700;
+    font-family: "Inter",sans-serif;
+    color: var(--warm-black);
+    margin: 6px 0 10px;
+}
+.plan-card__price span{
+    position: absolute;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: black;
+    left: calc(0% - 12px); /* referencia: font-size */
+    top: 10px; /* referencia: line-height */
+}
+.plan-card__saving{
+    width: 158px;
+    height: 3rem;
+    font-family: "Inter",sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.45rem;
+    color: var(--grey);
+    text-align: center;
+    margin: 0 auto 16px;
+}
+.plan-card__ca{
+    width: 155px;
+    height: 4.8rem;
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+    font-family: "DM Sans",sans-serif;
+    font-weight: 700;
+    color: black;
+    border: 2px solid var(--bitcoin-orange);
+    background-color: var(--soft-orange);
+    border-radius: 4px;
+    margin: 0 auto;
+    padding: 12px 16px;
+}
+.plan-card__ca span{
+    display: inline-block;
+    width: 20px;
+    height: 2rem;
+    background-image: url(../Assets/icons/orange-right-arrow.svg);
+    background-repeat: no-repeat;
+    vertical-align: text-bottom;
+}
+/* .CARTAS DE PRECIOS ADICIONALES */
+#basic{
+    margin-left: 70px;
+}
+#basic .recommended{
+    background-color: var(--secondary-blue);
+}
+.plan-card__ca.basic__button{
+    background-color: var(--soft-blue);
+    border: solid var(--secondary-blue);
+}
+#vitalicio{
+    margin-right: 70px;
+}
+#vitalicio .recommended{
+    background-color: rgb(219, 135, 174);
+}
+.plan-card__ca.vitalicio__button{
+    background-color: rgb(252, 240, 246);
+    border: solid rgb(219, 135, 174);
+}
+
+
+/* *PARTE DEL FOOTER */
+footer{
+    display: flex;
+    width: 320px;
+    height: 15rem;
+    background-color: var(--bitcoin-orange);
+}
+footer section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.social-network li,a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: var(--just-white);
+    margin: 8px 0;
 }

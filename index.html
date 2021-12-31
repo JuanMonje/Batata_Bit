@@ -23,7 +23,9 @@
                <p>
                     BatataBit te ayuda a navegar entre los diferentes precios y tendencias.
                </p>
-               <a class="header__button" href="">Conoce Nuestros Planes <span></span> </a>               
+               <a class="header__button" href="#plans">
+                   Conoce Nuestros Planes <span></span>
+                </a>               
            </div>
        </header>
        <main>
@@ -150,10 +152,68 @@
            <section class="bitcoin-img__container">
                 <h2>Conócelo hoy.</h2>
            </section>
-           <section>
-
+           <section id="plans" class="main-plans__container">
+                <div class="plans__title">
+                    <h2>Escoge el plan que mejor se ajuste a ti.</h2>
+                    <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
+                </div>
+                <section class="plans-container__slider">
+                    <article class="plans-container__card" id="basic">
+                        <p class="recommended">Básico</p>
+                        <div class="plan-info__container">
+                            <h3 class="plan-card__title">Pago Mensual</h3>
+                            <p class="plan-card__price"> <span>$</span> 19</p>
+                            <p class="plan-card__saving">
+                                *Cancela cuando quieras.
+                            </p>
+                            <button class="plan-card__ca basic__button">
+                                Escoger este
+                                <span></span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="plans-container__card">
+                        <p class="recommended">Recomendado</p>
+                        <div class="plan-info__container">
+                            <h3 class="plan-card__title">Pago Anual</h3>
+                            <p class="plan-card__price"> <span>$</span> 99</p>
+                            <p class="plan-card__saving">
+                                *Ahorras $129 comparado al plan mensual.
+                            </p>
+                            <button class="plan-card__ca">
+                                Escoger este
+                                <span></span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="plans-container__card" id="vitalicio">
+                        <p class="recommended">Vitalicio</p>
+                        <div class="plan-info__container">
+                            <h3 class="plan-card__title">Único pago</h3>
+                            <p class="plan-card__price"> <span>$</span> 300</p>
+                            <p class="plan-card__saving">
+                                *Obtienes capacitaciones y beneficios premium.
+                            </p>
+                            <button class="plan-card__ca vitalicio__button">
+                                Escoger este
+                                <span></span>
+                            </button>
+                        </div>
+                    </article>
+                </section>
            </section>
        </main>
-       <footer></footer>
+       <footer>
+           <section class="social-network">
+               <ul>
+                   <li> <a href="#">LinkedIn</a> </li>
+                   <li> <a href="#">Crunchbase</a> </li>
+                   <li> <a href="#">HackerNews</a> </li>
+               </ul>
+           </section>
+           <section class="footer__logo">
+                <img src="./Assets/img/logo-footer.svg" alt="Logo de la pagina">
+           </section>
+       </footer>
     </body>
 </html>
