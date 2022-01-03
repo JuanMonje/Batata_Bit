@@ -355,12 +355,13 @@ main{
     background-size: cover;
 }
 .bitcoin-img__container h2{
+    position: relative;
+    top: 193px;
     color: var(--just-white);
-    font-size: 2.4rem;
+    font-size: 3.4rem;
     line-height: 2.6rem;
     font-weight: 700;
     text-align: center;
-    padding-top: 64px;
 }
 
 
@@ -536,4 +537,13 @@ footer section{
     font-weight: 500;
     color: var(--just-white);
     margin: 8px 0;
+}
+
+
+
+
+@media(min-width: 550px) {
+    .main__tables-container{
+        justify-content: center;
+    }
 }
